@@ -13,6 +13,7 @@ export const rendererConfig: Configuration = {
     rules,
   },
   plugins,
+  externals: { 'react-native': 'react-native' },
   resolve: {
     extensions: ['.js', '.ts', '.jsx', '.tsx', '.css'],
   },

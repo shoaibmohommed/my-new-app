@@ -12,6 +12,7 @@ export const mainConfig: Configuration = {
   module: {
     rules,
   },
+  externals: { 'react-native': 'react-native' },
   resolve: {
     extensions: ['.js', '.ts', '.jsx', '.tsx', '.css', '.json'],
   },
